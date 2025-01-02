@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Compose craft next</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="256x256">
+    <meta name="description" content="Compose craft next. The only visual tool to self host" />
+    <meta name="author" content="Daily Dev Tips" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  </head>
+  <body class="flex flex-col min-h-[100svh] bg-slate-50">
+    <section class="flex flex-col h-full justify-between min-h-[100svh] lg:flex-row lg:my-10 lg:min-h-20">
+      <div class="p-5 flex flex-col lg:p-10" >
+        <span class="flex flex-row w-full justify-between">
+          <img class="w-48 mb-10" src="logo.png" alt="Compose Craft" />
+          <a href="https://github.com/composecraft/next"><img class="w-20 mb-10" src="gh.png" alt="github" /></a>
+        </span>
+        <div class="flex flex-col gap-5 lg:gap-5">
+          <h1 class="text-3xl font-bold text-dark lg:text-6xl">Deploy apps so easily</h1>
+          <h2 class="lg:text-3xl">The first <strong>open source</strong> GUI app that allow you
+            To deploy apps without any knowledge</h2>
+          <form action="https://n8n.sovre.fr/webhook/7b739d30-dfad-485a-a62a-a86e982e5f39" method="get" class="lg:text-lg">
+            <div class="bg-white border-2 rounded-lg py-1 px-1 flex flex-row justify-between lg:w-[500px]">
+              <input name="email" id="email" required placeholder="your@email.com" class="pl-1 bg-transparent outline-0 w-4/6" type="email">
+              <button class="hover:px-5 bg-medium text-white font-medium px-2 py-1 rounded transition-all">Join waitlist</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="h-[50vh] bg-gradient-to-b from-dark to-light flex px-5 pt-5 mx-5 rounded-2xl rounded-b-none lg:m-0 lg:p-10 lg:pr-0 lg:rounded-2xl lg:rounded-r-none lg:h-[500px]">
+        <img class="rounded-xl rounded-b-none mt-auto w-full max-w-[800px] h-full object-cover lg:rounded-xl lg:rounded-r-none" src="https://placehold.co/1920x1080" alt="dashboard">
+      </div>
+    </section>
+    <section class="bg-slate-700 pt-10 lg:bg-transparent w-[100vw] text-slate-50 lg:text-slate-900 flex flex-col justify-center items-center pb-20">
+      <h2 class="text-3xl mb-10 lg:font-bold">What's built'in ? </h2>
+      <div class="grid grid-cols-2 gap-y-5 w-full">
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scaling"><path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M14 15H9v-5"/><path d="M16 3h5v5"/><path d="M21 3 9 15"/></svg>
+          <p class="text-md lg:text-dark">Auto scaling</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-webhook"><path d="M18 16.98h-5.99c-1.1 0-1.95.94-2.48 1.9A4 4 0 0 1 2 17c.01-.7.2-1.4.57-2"/><path d="m6 17 3.13-5.78c.53-.97.1-2.18-.5-3.1a4 4 0 1 1 6.89-4.06"/><path d="m12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8"/></svg>
+          <p class="text-md lg:text-dark">WebHooks</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gauge"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg>
+          <p class="text-md lg:text-dark">Host metrics</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scroll-text"><path d="M15 12h-5"/><path d="M15 8h-5"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></svg>
+          <p class="text-md lg:text-dark">Loging</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-life-buoy"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/><circle cx="12" cy="12" r="4"/></svg>
+          <p class="text-md lg:text-dark">FallBack Page</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-siren"><path d="M7 18v-6a5 5 0 1 1 10 0v6"/><path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z"/><path d="M21 12h1"/><path d="M18.5 4.5 18 5"/><path d="M2 12h1"/><path d="M12 2v1"/><path d="m4.929 4.929.707.707"/><path d="M12 12v6"/></svg>
+          <p class="text-md lg:text-dark">Downtime ping</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          <p class="text-md lg:text-dark">DNS integration</p>
+        </span>
+        <span class="flex flex-row gap-3 justify-center items-center lg:text-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bug-play"><path d="M12.765 21.522a.5.5 0 0 1-.765-.424v-8.196a.5.5 0 0 1 .765-.424l5.878 3.674a1 1 0 0 1 0 1.696z"/><path d="M14.12 3.88 16 2"/><path d="M18 11a4 4 0 0 0-4-4h-4a4 4 0 0 0-4 4v3a6.1 6.1 0 0 0 2 4.5"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M6 13H2"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="m8 2 1.88 1.88"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/></svg>
+          <p class="text-md lg:text-dark">Debug tools</p>
+        </span>
+      </div>
+    </section>
+    <footer class="flex justify-center py-5 px-2">
+      <p>Composecraft next is a product of <a class="underline" href="https://entrecompetents.fr">SARL ENTRECOMPETENS</a></p>
+    </footer>
+  </body>
+</html>
