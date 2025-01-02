@@ -10,9 +10,8 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag composecraft-wait:latest
+      - name: github-action-docker-build
+        uses: btmc/github-action-docker-build@latest
