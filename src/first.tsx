@@ -26,8 +26,8 @@ export default function First(){
     return(
         <>
             <nav className="text-white max-w-7xl w-full flex flex-row justify-between items-center mb-20 mt-5 px-10">
-                <img alt="logo" src={logo} className="w-40" />
-                <div className="flex flex-row gap-5 justify-center items-center">
+                <img alt="logo" src={logo} className="w-40 hidden md:flex" />
+                <div className="flex flex-row gap-5 justify-between w-full md:justify-center md:w-fit items-center">
                     <a href="https://github.com/composecraft/next">Github</a>
                     <a href="mailto:contact@entrecompetents.fr">contact</a>
                     <a href="/#join" className={clsx(
